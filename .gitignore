@@ -1,0 +1,9 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+dataset/
+PlantVillage/
+backup_unused_files/
+tempCodeRunnerFile.python

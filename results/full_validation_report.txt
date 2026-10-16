@@ -1,0 +1,57 @@
+AgriSpikeNet Full Validation Report
+===================================
+Checkpoint: best_model_weighted_snn_v2.pth
+Checkpoint epoch: unknown
+Checkpoint recorded accuracy: 0.3925
+Encoder: preprocessing.snn_input
+Random seed: 42
+Time steps: 10
+Images evaluated: 8129
+Correct predictions: 3407
+Incorrect predictions: 4722
+Full validation accuracy: 41.91%
+
+Per-class accuracy
+------------------
+Apple___Apple_scab: 6/94 (6.38%)
+Apple___Black_rot: 1/93 (1.08%)
+Apple___Cedar_apple_rust: 0/41 (0.00%)
+Apple___healthy: 163/246 (66.26%)
+Blueberry___healthy: 138/225 (61.33%)
+Cherry_(including_sour)___Powdery_mildew: 2/157 (1.27%)
+Cherry_(including_sour)___healthy: 26/128 (20.31%)
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot: 0/76 (0.00%)
+Corn_(maize)___Common_rust_: 169/178 (94.94%)
+Corn_(maize)___Northern_Leaf_Blight: 6/147 (4.08%)
+Corn_(maize)___healthy: 171/174 (98.28%)
+Grape___Black_rot: 34/177 (19.21%)
+Grape___Esca_(Black_Measles): 96/207 (46.38%)
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot): 81/161 (50.31%)
+Grape___healthy: 0/63 (0.00%)
+Orange___Haunglongbing_(Citrus_greening): 664/826 (80.39%)
+Peach___Bacterial_spot: 161/344 (46.80%)
+Peach___healthy: 4/54 (7.41%)
+Pepper,_bell___Bacterial_spot: 1/149 (0.67%)
+Pepper,_bell___healthy: 125/221 (56.56%)
+Potato___Early_blight: 72/150 (48.00%)
+Potato___Late_blight: 0/150 (0.00%)
+Potato___healthy: 0/22 (0.00%)
+Raspberry___healthy: 0/55 (0.00%)
+Soybean___healthy: 657/763 (86.11%)
+Squash___Powdery_mildew: 96/275 (34.91%)
+Strawberry___Leaf_scorch: 61/166 (36.75%)
+Strawberry___healthy: 10/68 (14.71%)
+Tomato___Bacterial_spot: 118/319 (36.99%)
+Tomato___Early_blight: 5/150 (3.33%)
+Tomato___Late_blight: 2/286 (0.70%)
+Tomato___Leaf_Mold: 19/142 (13.38%)
+Tomato___Septoria_leaf_spot: 10/265 (3.77%)
+Tomato___Spider_mites Two-spotted_spider_mite: 58/251 (23.11%)
+Tomato___Target_Spot: 68/210 (32.38%)
+Tomato___Tomato_Yellow_Leaf_Curl_Virus: 244/803 (30.39%)
+Tomato___Tomato_mosaic_virus: 9/55 (16.36%)
+Tomato___healthy: 127/238 (53.36%)
+
+Note: This evaluation uses the current encoder code.
+Confirm it matches the original training encoder before
+reporting the result as final scientific accuracy.
